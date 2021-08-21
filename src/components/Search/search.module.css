@@ -1,11 +1,9 @@
 .searchBar {
-  height: 38px;
-  border-radius: 5px;
-  padding:0px 10px;
-  width: 70%;
-  min-width: 95px;
-  max-width: 600px;
-  background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0px 4px 0px 10px;
+    background-color: #FFFFFF;
+    height: inherit;
+    width: 100%;
 }
 /* @media screen and (max-width: 330px) {
   .searchBar{
@@ -13,20 +11,21 @@
   }
 } */
 .searchBar input {
-  width: 100%;
   outline-style: none;
   border-style: none;
   background: transparent;
   font-size: 14px;
   font-weight: normal;
   color: #000000;
+  flex-grow: 1;
+  min-width: 100px;
 }
 .searchBar input::placeholder{
   color: var(--placeholder-text);
   font-size: var(--fs-2Xsmall);
 }
-.searchBar svg{
+.searchBar img{
   color: var(--primary);
-  padding: 0 10px;
+  padding-left: 15px;
   border-left: 1px solid;
 }
