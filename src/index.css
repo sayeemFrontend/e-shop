@@ -5,7 +5,7 @@
   --error:#F61608;
   --success:#4D9B41;
   --text-secondary:#1D2531;
-  --border-primary:#E9E6E6;
+  --border-primary:#E4E4E5;
   --placeholder-text: #999B9E;
   --fs-XXlarge:2.50rem;
   --fs-Xlarge:2rem;
@@ -28,6 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-primary);
+  overflow: auto;
   margin: 0;
 }
 
@@ -73,6 +74,10 @@ h5{
 h6{
   font-size: var(--fs-Xsmall);
   font-weight: var(--fw-Xsmall);
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .text-primary{
