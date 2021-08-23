@@ -6,7 +6,9 @@ import Topbar from './Topbar/topbar';
 const Header = () => {
     return (
         <div>
-            <Topbar />
+            <div className="d-none d-md-block ">
+                <Topbar />
+            </div>
             <Menubar />
             <Navbar />
         </div>
